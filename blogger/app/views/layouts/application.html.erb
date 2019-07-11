@@ -10,6 +10,16 @@
   </head>
 
   <body>
+    <div id = "navbar">
+      <ul id = "navlinks">
+        <li id = "navlink"><%=link_to "Articles", articles_path %></li>
+        <li id = "navlink"><%=link_to "Authors", authors_path %></li>
+        <li id = "navlink"><%=link_to "Tags", tags_path %></li>
+      </ul>
+    </div>
+
+
+
     <div id="container">
       <div id="content">
         <%= yield %>

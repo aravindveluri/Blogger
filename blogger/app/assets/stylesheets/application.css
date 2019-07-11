@@ -126,3 +126,22 @@ th, td{
     padding: 5px;
     margin: 15px;
 }
+#navbar{
+    width: 80px;
+}
+#navlinks{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+}
+#navlink{
+    margin: 6px;
+    padding: 5px;
+    width: 100%;
+}
+
+body{
+    display: flex;    
+}
